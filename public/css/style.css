@@ -1,0 +1,127 @@
+button.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px transparent;
+  border-radius: 6px;
+  background-image: url("wpp.jpg");;
+  border-color: #005b00;
+}
+body{
+  background-image: url("wpp.jpg");
+}
+
+a.img{
+  float: left;
+  padding-left: 40px;
+}
+a.navbar-brand span{
+  color: #e2e2e2;
+  font-weight: bold;
+}
+
+a.navbar-brand{
+  margin-top: 10px;
+  font-size: 16px;
+}
+div.navbar-header{
+  background-image: url("wpp.jpg");
+}
+div.navbar.navbar-default{
+  background-image: url("wpp.jpg");
+}
+nav.navbar-default .navbar-toggle .icon-bar{
+  color: #e2e2e2
+}
+h3.localizacao{
+  color: #e2e2e2
+}
+
+div.title h1{
+  text-align: center;
+  font-size: 50px;
+  color: #005b00;
+  font-weight: bold;
+}
+div.texto{
+  font-size: 15px;
+  color: white;
+}
+p.kkk{
+  text-align: center;
+}
+
+.footer {
+  width:100%;
+  background-image: url("wpp.jpg");
+  margin:0;
+  padding:3px 0;
+  text-align:center;
+  border-top:3px dashed #FFF;
+  color: white;
+}
+
+ul{
+  text-align: center;
+}
+
+form.form-horizontal{
+  color: white;
+  text-align: center;
+}
+
+div.itens{
+  text-align: center;
+}
+
+div.item1{
+  text-align: center;
+}
+
+div.item2{
+  text-align: center;
+}
+
+label{
+  font-size: 28px;
+  color: #e2e2e2
+}
+
+div.container{
+  margin: 5px;
+}
+p.preços{
+  font-size: 20px;
+  color: #e2e2e2
+}
+select.form-control{
+  width: 105px;
+}
+a.roda{
+  color: #005b00;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+button.btn.btn-default.btn-lg{
+  background-color: transparent;
+  border-color: transparent;
+  color: #005b00;
+  font-size: 20px;
+}
+img.mapa{
+  width: 100%;
+}
+div.container{
+  position: relative;
+  text-align: center;
+}
+label.car{
+  color: #e2e2e2;
+  border: solid transparent;
+  text-align: center;
+}
