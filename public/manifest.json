@@ -3,7 +3,7 @@
   "background_color": "#2196f3",
   "display": "fullscreen",
   "Scope": "/",
-  "start_url": "https://adrianpastore.github.io/TESTE2LIXO/public/index.html",
+  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
