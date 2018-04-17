@@ -1,3 +1,17 @@
+var CACHE_NAME = 'my-site-cache-v1';
+var urlsToCache = [
+  '/public/',
+  '/public/index.html',
+  '/public/css/style.css',
+  '/public/cadastro.html',
+  '/public/contatos.html',
+  '/public/entrar.html',
+  '/public/experiencia.html',
+  '/public/filmes.html',
+  '/public/masc.html',
+  '/public/art.html',
+  '/public/local.html'
+];
 self.addEventListener('install', function(event) {
   var offlinePage = new Request('offline.html');
   event.waitUntil(
