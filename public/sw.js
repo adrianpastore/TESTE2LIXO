@@ -1,6 +1,3 @@
-//This is the "Offline page" service worker
-
-//Install stage sets up the offline page in the cahche and opens a new cache
 self.addEventListener('install', function(event) {
   var offlinePage = new Request('offline.html');
   event.waitUntil(
@@ -11,7 +8,25 @@ self.addEventListener('install', function(event) {
     });
   }));
 });
-
+this.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('v1').then(function(cache) {
+      return cache.addAll([
+        '/public/',
+        '/public/index.html',
+        '/public/css/style.css',
+        '/public/cadastro.html',
+        '/public/contatos.html',
+        '/public/entrar.html',
+        '/public/experiencia.html',
+        '/public/filmes.html',
+        '/public/masc.html',
+        '/public/art.html',
+        '/public/local.html'
+      ]);
+    })
+  );
+});
 //If any fetch fails, it will show the offline page.
 //Maybe this should be limited to HTML documents?
 self.addEventListener('fetch', function(event) {
