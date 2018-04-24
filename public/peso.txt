@@ -1,10 +1,10 @@
 1. 23- evite código inline/incorporado
 2. 22- estilos no topo, scripts no rodapé
-3. 21- experimente o async & defer
+3. 21- experimente o async & defer*
 4. 19- combine vários arquivos css em um só
 5. 18- prefira <link> a @import
 6. 15- evite document.write
-7. 11- combine vários arquivos js em um só
+7. 11- combine vários arquivos js em um só*
 8. 4- não escale imagens direto no código
-9. 10- use sempre a última versão do jquery
+9. 10- use sempre a última versão do jquery*
 10. 7- não use jquery sempre...
