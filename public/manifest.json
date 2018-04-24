@@ -1,15 +1,13 @@
 {
     "name" : "AlienProject",
-    "short_name" : "AP",
-    "theme_color" : "#2a0044",
-    "background_color" : "#2a0044",
+    "short_name" : "Alien",
+    "theme_color" : "#a20668",
+    "background_color" : "#7c0029",
     "display" : "fullscreen",
     "Scope" : "/",
+    "start_url" : "https://adrianpastore.github.io/TESTE2LIXO/public/index.html",
     "lang" : "",
     "orientation" : "undefined",
-    "start_url" : "https://adrianpastore.github.io/TESTE2LIXO/public/index.html",
-    "splash_pages" : "null",
-    "scope" : "",
     "icons": [
           {
         "src": "images/icons/icon-72x72.png",
